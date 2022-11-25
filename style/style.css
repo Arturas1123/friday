@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maitree', serif;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0F1624;
+}
+.conteiner {
+   
+    max-width: 1000px;
+    min-height: inherit;
+    margin: 0 auto;
+    display: flex
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    min-height: 50px;
+    
+
+}
+.logo {
+    float: left;
+    left: 0;
+    width: 202px;
+    height: 47.58px;
+
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav ul {
+
+}
+.nav li {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav li:hover{
+
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 83px;
+}
+.nav li a {
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.hero {
+    margin-left: 50px;
+    position: absolute;
+    width: 456px;
+    height: 459px;
+    left: 250px;
+    top: 283px;
+    padding: 50px;
+    
+}
+.hero h1 {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+.hero p {
+    color: #BCBCBC;
+    line-height: 20px;
+    padding: 50px 0;
+   
+}
+.hero a {
+    color: #FFFFFF;
+    display: inline-block;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 83px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    transition: all 0.5s;
+}
+.links {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+}
+.projects {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    bottom: 0;
+    top: 100px;
+}
+/* wrapped */
